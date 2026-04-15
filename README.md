@@ -10,6 +10,7 @@ Speech Module: Listens for the "Hicell" wake word and sends command IDs (1, 4, 1
 Light Outputs: Blue LED, Green LED, Red LED, and a Red Laser.
 
 How the Code Works
+
 Communication: The Arduino uses SoftwareSerial to talk to the voice module and I2C to talk to the servo driver.
 Movement: A "smooth" function is used instead of direct movement. It moves the servos 1 unit at a time with a 5ms delay so the 3D-printed arms do not snap or shake.
 Inversion: Channel 15 is programmed to move in the opposite direction of the other channels to account for the physical mounting of the servos.
@@ -18,7 +19,6 @@ Logic: A switch statement checks the incoming command ID. It first turns off all
 Command List
 
 **1** *"Turn on the light"* | Blue LED ON | **Search Mode** 
-
 **20***"Mode 1"* | Red Laser + Red LED | **BT Detection** 
 
 **21** *"Mode 2"* | Green LED ON | **Safe Zone** 
