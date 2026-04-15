@@ -4,23 +4,15 @@ This project is a custom-built shoulder robot inspired by Death Stranding. It us
 Hardware Components
 
 Arduino: Controls the main logic.
-
 PCA9685 Driver: Controls three servos.
-
 Speech Module: Listens for the "Hicell" wake word and sends command IDs (1, 4, 19, 20, 21) via serial.
-
 3D Printed Parts: Custom-designed base and arms.
-
 Light Outputs: Blue LED, Green LED, Red LED, and a Red Laser.
 
 How the Code Works
-
 Communication: The Arduino uses SoftwareSerial to talk to the voice module and I2C to talk to the servo driver.
-
 Movement: A "smooth" function is used instead of direct movement. It moves the servos 1 unit at a time with a 5ms delay so the 3D-printed arms do not snap or shake.
-
 Inversion: Channel 15 is programmed to move in the opposite direction of the other channels to account for the physical mounting of the servos.
-
 Logic: A switch statement checks the incoming command ID. It first turns off all lights (Reset), then sets the new LED and moves the servos to the target position.
 
 Command List
