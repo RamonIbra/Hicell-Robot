@@ -15,7 +15,8 @@ Inversion: Channel 15 is programmed to move in the opposite direction of the oth
 Logic: A switch statement checks the incoming command ID. It first turns off all lights (Reset), then sets the new LED and moves the servos to the target position.
 
 Command List
-| **1** | *"Turn on the light"* | Blue LED ON | **Search Mode** |
+
+**1** *"Turn on the light"* | Blue LED ON | **Search Mode** 
 
 | **20** | *"Mode 1"* | Red Laser + Red LED | **BT Detection** |
 
