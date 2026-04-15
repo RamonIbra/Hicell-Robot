@@ -16,15 +16,17 @@ Logic: A switch statement checks the incoming command ID. It first turns off all
 
 Command List
 
-**1** *"Turn on the light"* | Blue LED ON | **Search Mode** 
+**1** 
 
-| **20** | *"Mode 1"* | Red Laser + Red LED | **BT Detection** |
+*"Turn on the light"* | Blue LED ON | **Search Mode** 
 
-| **21** | *"Mode 2"* | Green LED ON | **Safe Zone** |
+**20***"Mode 1"* | Red Laser + Red LED | **BT Detection** 
 
-| **4** | *"Pause"* | Red LED + Servo 200 | **Idle / Retract** |
+**21** *"Mode 2"* | Green LED ON | **Safe Zone** 
 
-| **19** | *"Start"* | Clear LEDs + Servo 400 | **Deploy / Ready** |
+**4** *"Pause"* | Red LED + Servo 200 | **Idle / Retract** 
+
+**19** *"Start"* | Clear LEDs + Servo 400 | **Deploy / Ready** 
 
 Wiring
 Pins 2, 3: Voice Module.
