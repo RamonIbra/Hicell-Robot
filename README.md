@@ -1,4 +1,5 @@
-Description
+**Description**
+
 This project is a custom-built shoulder robot inspired by Death Stranding. It uses 3D-printed mechanical parts (arms and base) controlled by an Arduino. It moves servos based on voice commands and activates different LEDs and a laser.
 
 Hardware Components
