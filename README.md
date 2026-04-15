@@ -19,6 +19,7 @@ Logic: A switch statement checks the incoming command ID. It first turns off all
 Command List
 
 **1** *"Turn on the light"* | Blue LED ON | **Search Mode** 
+
 **20***"Mode 1"* | Red Laser + Red LED | **BT Detection** 
 
 **21** *"Mode 2"* | Green LED ON | **Safe Zone** 
